@@ -1,0 +1,63 @@
+@media (max-width: 828px) {
+    .menu-icon {
+        display: block;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        align-items: flex-end;
+        width: 100%;
+    }
+
+    .nav-utilities {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .show {
+        display: flex;
+    }
+
+    .skill {
+        flex-direction: column;
+    }
+
+    .testimonial {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .project-header {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .creator {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .contact-main {
+        flex-direction: column;
+    }
+
+    .footer-main {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 30px;
+    }
+}
